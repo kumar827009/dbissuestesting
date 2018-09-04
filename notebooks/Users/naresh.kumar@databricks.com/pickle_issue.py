@@ -159,3 +159,7 @@ get_time()
 # COMMAND ----------
 
 # MAGIC %sh cat /var/log/apt/term.log
+
+# COMMAND ----------
+
+# MAGIC %sh ls -ltr /
