@@ -163,3 +163,98 @@ get_time()
 # COMMAND ----------
 
 # MAGIC %sh ls -ltr /
+
+# COMMAND ----------
+
+import matplotlib
+matplotlib.use('agg')
+import matplotlib.pyplot as plt
+
+plt.figure(1).show()
+
+
+# COMMAND ----------
+
+# MAGIC %sh cat /var/log/apt/term.log
+
+# COMMAND ----------
+
+# MAGIC %sh pwd
+
+# COMMAND ----------
+
+# MAGIC %python
+# MAGIC dbutils.widgets.get("pickle_issue")
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+# MAGIC %scala
+# MAGIC dbutils.notebook.getContext.notebookPath
+
+# COMMAND ----------
+
+# MAGIC %sh sudo apt-get install -y libblas-dev liblapack-dev 
+
+# COMMAND ----------
+
+# MAGIC %sh sudo apt-get -y --allow-change-held-packages install libblas-dev liblapack-dev 
+
+# COMMAND ----------
+
+dbutil.
+
+# COMMAND ----------
+
+#37
+
+# COMMAND ----------
+
+#38
+
+# COMMAND ----------
+
+#41
+
+# COMMAND ----------
+
+#42
+
+# COMMAND ----------
+
+#44
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+
+
+# COMMAND ----------
+
+# MAGIC %sh ls -ltr /home
+
+# COMMAND ----------
+
+# MAGIC %scala dbfs ls
+
+# COMMAND ----------
+
+# MAGIC %md 
